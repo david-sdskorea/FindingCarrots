@@ -15,11 +15,26 @@
 <body>
     <section class="mainFrame">
         <div class="upper">
-            <button class="startBtn"><i class="fa-solid fa-play"></i></button>
+            <button id="startBtn"><i class="fa-solid fa-play"></i></button>
             <div id="timer">00:00</div>
-            <div class="counter">0</div>
+            <div id="counter">0</div>
         </div>
-        <div class="lower"></div>
+        <div class="lower">
+            <div id="lostWindow">
+                <div class="endingContents">
+                    <button id="resumeBtn"><i class="fa-solid fa-arrow-rotate-right"></i></button>
+                    <div class="endingMessage">YOU LOST</div>
+                </div>
+                
+            </div>
+            <div id="winWindow">
+                <div class="endingContents">
+                    <button id="resumeBtn"><i class="fa-solid fa-arrow-rotate-right"></i></button>
+                    <div class="endingMessage">YOU WIN</div>
+                </div>
+                
+            </div>
+        </div>
         
     </section>
 </body>
